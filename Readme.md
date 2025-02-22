@@ -9,6 +9,15 @@ This project provides an API for **uploading CSV files**, processing images asyn
 
 ---
 
+## Visual diagram of the system (Draw.io)
+
+```sh
+https://drive.google.com/file/d/1hL4E_YCthA654mWOGwmMq3SKqnmK16yF/view?usp=sharing
+
+```
+
+---
+
 ## 🚀 Deployment(on render)
 
 ```sh
