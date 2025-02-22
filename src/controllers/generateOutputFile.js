@@ -3,9 +3,12 @@ const path = require("path");
 const { Parser } = require("json2csv");
 const BASE_UPLOADS_DIR = path.join(__dirname, "../uploads");
 const OUTPUT_CSV_DIR = path.join(BASE_UPLOADS_DIR, "/outputCsvFiles");
-if (!fs.existsSync(OUTPUT_CSV_DIR)) {
-  fs.mkdirSync(OUTPUT_CSV_DIR);
-}
+// if (!fs.existsSync(BASE_UPLOADS_DIR)) {
+//   fs.mkdirSync(BASE_UPLOADS_DIR);
+// }
+// if (!fs.existsSync(OUTPUT_CSV_DIR)) {
+//   fs.mkdirSync(OUTPUT_CSV_DIR);
+// }
 async function generateOutputCsv(request) {
   try {
     const outputCsvFilePath = path.join(
